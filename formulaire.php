@@ -10,7 +10,7 @@ include('entete.php')
                 </li>
                 <li>
                     <label for="name">password</label>
-                    <input type="password" id="name" name="mot de passe" />
+                    <input type="password" id="name" name="mdp" />
                 </li>
                     <div class="button">
                         <input type="submit" value="Envoyer le message">

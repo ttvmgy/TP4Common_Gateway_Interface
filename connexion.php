@@ -3,11 +3,10 @@ include('entete.php');
 ?>
     <section>
         <?php
-        if (!empty($_REQUEST['identifiant'])) {
-            $identifiant = $_REQUEST['identifiant'];
-            echo " <h2> Bonjour $identifiant, vous êtes connecté(e) ! </h2> ";
-        }
+        $identifiant=$_REQUEST['identifiant'];
+        $mdp=$_REQUEST['mdp'];
         $_SESSION['indentifiant'] = $identifiant;
+        echo " <h2> Bonjour $identifiant, vous êtes connecté(e) ! </h2> ";
         ?>
      </section>
 
