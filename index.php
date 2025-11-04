@@ -2,7 +2,7 @@
 include('entete.php')
 ?>
 
-<a href="formulaire.php">Connexion</a>
+<a href="formulaire.php" id="connexion">Connexion</a>
 
 <?php
 include('pied_de_page.php')
