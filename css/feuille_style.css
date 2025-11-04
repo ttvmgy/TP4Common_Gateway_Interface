@@ -3,7 +3,9 @@ h1 {
 }
 
 #connexion {
-  text-align: right;
+  position: absolute;
+  top: 15px;
+  right: 20px;
 }
 
 #commentaire_page_acceuil {
