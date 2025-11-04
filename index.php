@@ -9,8 +9,8 @@ include('entete.php')
                     <input type="text" id="name" name="identifiant" />
                 </li>
                 <li>
-                    <label for="mail">password</label>
-                    <input type="email" id="mail" name="mot de passe" />
+                    <label for="name">password</label>
+                    <input type="text" id="name" name="mot de passe" />
                 </li>
                     <div class="button">
                         <button type="submit">Envoyer le message</button>
