@@ -2,7 +2,7 @@
 include('entete.php')
 ?>
 <?php
-<htlm>
+<html>
 <form action='connexion.php'>
   <ul>
     <li>
@@ -18,7 +18,7 @@ include('entete.php')
     </div>
   </ul>
 </form>
-</htlm>
+</html>
 ?>
 <?php
 include('pied_de_page.php')
