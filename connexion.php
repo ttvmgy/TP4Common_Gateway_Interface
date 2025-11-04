@@ -7,6 +7,7 @@ include('entete.php');
             $identifiant = $_REQUEST['identifiant'];
             echo " <h2> Bonjour $identifiant, vous êtes connecté(e) ! </h2> ";
         }
+        $_SESSION['indentifiant'] = $identifiant;
         ?>
      </section>
 
