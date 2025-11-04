@@ -5,11 +5,11 @@ include('entete.php')
         <form action='connexion.php'>
             <ul>
                 <li>
-                    <label for="name">login;:</label>
+                    <label for="name">login</label>
                     <input type="text" id="name" name="identifiant" />
                 </li>
                 <li>
-                    <label for="mail">password;:</label>
+                    <label for="mail">password</label>
                     <input type="email" id="mail" name="mot de passe" />
                 </li>
                     <div class="button">
